@@ -8739,14 +8739,14 @@ Description:  LZO is a data compression library which is suitable for data de-/c
 Package: libmbedtls
 Version: 2.4.2-1
 Depends: libc
-Source: package/libs/mbedtls
+Source: package/mbedtls
 License: GPL-2.0+
 Section: libs
 Architecture: x86_64
-Installed-Size: 161439
+Installed-Size: 167189
 Filename: libmbedtls_2.4.2-1_x86_64.ipk
-Size: 162052
-SHA256sum: 95a9568833f5a015b89bf22760e24991504bc35f230309942fa2047500749cf4
+Size: 167791
+SHA256sum: bab4d587359cf27b7a7380abe5b91e987efbdc3da42271b0085f51bec784d9c7
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
