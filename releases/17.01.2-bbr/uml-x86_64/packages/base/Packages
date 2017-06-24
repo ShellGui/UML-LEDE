@@ -9322,6 +9322,21 @@ Size: 10841
 SHA256sum: 8da40e3804645f424e11583666be47c962a707bf1d475944fde21010f994b808
 Description:  HTTP/1.1 client library
 
+Package: libudns
+Version: 0.4-1
+Depends: libc
+Source: package/udns
+License: LGPL-2.1
+Section: libs
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: x86_64
+Installed-Size: 18653
+Filename: libudns_0.4-1_x86_64.ipk
+Size: 19424
+SHA256sum: 32da504e61ef773f4408ada3c657bdc6a78c3ad3829f562a9ea61d06ae2323fb
+Description:  UDNS is a stub DNS resolver library with ability to perform both syncronous
+ and asyncronous DNS queries.
+
 Package: libunwind
 Version: 1.2.1-1
 Depends: libc
