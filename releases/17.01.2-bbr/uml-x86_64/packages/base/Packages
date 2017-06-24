@@ -10009,10 +10009,10 @@ LicenseFiles: COPYING
 Section: base
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: x86_64
-Installed-Size: 69732
+Installed-Size: 69744
 Filename: opkg_2017-05-03-04e279eb-1_x86_64.ipk
-Size: 70795
-SHA256sum: 470ed49638c2af01cecc387ae496ac6d184b435507094deda00df595036f4b17
+Size: 70802
+SHA256sum: 13835e163041999b3a936bb378ada1772854de5fad2e81d0178e5373a7b6d35d
 Description:  Lightweight package management system
  opkg is the opkg Package Management System, for handling
  installation and removal of packages on a system. It can
