@@ -10012,6 +10012,26 @@ Size: 203896
 SHA256sum: b02a4ca4105e3cc54034e09b92d68579848aeeb6aea83a38a6e67477aa1239de
 Description:  Open source VPN solution using OpenSSL
 
+Package: opkg
+Version: 2017-05-03-04e279eb-1
+Depends: libc, uclient-fetch, libpthread, libubox
+Source: package/system/opkg
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: base
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: x86_64
+Installed-Size: 69751
+Filename: opkg_2017-05-03-04e279eb-1_x86_64.ipk
+Size: 70843
+SHA256sum: 455b86b3f87f64093aaaf5e3163f9c3c24e084eabcb8a9571dd21001f5d1a383
+Description:  Lightweight package management system
+ opkg is the opkg Package Management System, for handling
+ installation and removal of packages on a system. It can
+ recursively follow dependencies and download all packages
+ necessary to install a particular package.
+ 
+ opkg knows how to install both .ipk and .deb packages.
 
 Package: owipcalc
 Version: 3
