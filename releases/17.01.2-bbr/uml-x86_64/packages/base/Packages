@@ -10711,31 +10711,31 @@ Description:  list the size of a partition, list the partitions on a device, che
 Package: shadowsocks-libev
 Version: 3.0.6-1
 Depends: libc, libev, libudns, libpcre, libpthread, libsodium, libmbedtls
-Source: package/shadowsocks
+Source: package/shadowsocks-libev
 License: GPLv3
 LicenseFiles: LICENSE
 Section: net
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: x86_64
-Installed-Size: 172007
+Installed-Size: 171747
 Filename: shadowsocks-libev_3.0.6-1_x86_64.ipk
-Size: 172820
-SHA256sum: da3999205aa28ee29de3ac23bb48b07cdc318c9c32cc3221b1059a981007d6fb
+Size: 172576
+SHA256sum: 0d4d9e093151820e95efa2991b26d1cacda2c2f16a5776401a385956f512e943
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: shadowsocks-libev-server
 Version: 3.0.6-1
 Depends: libc, libev, libudns, libpcre, libpthread, libsodium, libmbedtls
-Source: package/shadowsocks
+Source: package/shadowsocks-libev
 License: GPLv3
 LicenseFiles: LICENSE
 Section: net
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: x86_64
-Installed-Size: 76059
+Installed-Size: 75911
 Filename: shadowsocks-libev-server_3.0.6-1_x86_64.ipk
-Size: 76852
-SHA256sum: 44b8421216d015e816122a5ca79049a33d7acfeaa713a9c325e0c71c1a01023a
+Size: 76713
+SHA256sum: a0fbfab434ee3335be0bb62fc433d43466346867355ab33d527216de880b7875
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: snapshot-tool
