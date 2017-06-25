@@ -10008,8 +10008,8 @@ Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: i386_pentium
 Installed-Size: 65431
 Filename: opkg_2017-05-03-04e279eb-1_i386_pentium.ipk
-Size: 66481
-SHA256sum: 75710de6425ebd86071a5e38a67a6f806a991041ac956e759b5afbd2b3e63827
+Size: 66505
+SHA256sum: cda2f5dffdf99664c4d7584052dc135b1a790b3fcd3a5e3659bf4d518c5d0a61
 Description:  Lightweight package management system
  opkg is the opkg Package Management System, for handling
  installation and removal of packages on a system. It can
