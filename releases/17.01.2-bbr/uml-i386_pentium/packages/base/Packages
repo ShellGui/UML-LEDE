@@ -10681,6 +10681,36 @@ SHA256sum: 128c3c49b64e31148f5a3b1765ea4b3f4271613148ae3dedf2da80b11f92ebec
 Description:  list the size of a partition, list the partitions on a device, check the
  partitions on a device and repartition a device
 
+Package: shadowsocks-libev
+Version: 3.0.6-1
+Depends: libc, libev, libudns, libpcre, libpthread, libsodium, libmbedtls
+Source: package/shadowsocks-libev
+License: GPLv3
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: i386_pentium
+Installed-Size: 163081
+Filename: shadowsocks-libev_3.0.6-1_i386_pentium.ipk
+Size: 163801
+SHA256sum: 8297b63425ad69a1da8909ec89691fa939cadec70d2c3a811f0766b6c705cb40
+Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
+
+Package: shadowsocks-libev-server
+Version: 3.0.6-1
+Depends: libc, libev, libudns, libpcre, libpthread, libsodium, libmbedtls
+Source: package/shadowsocks-libev
+License: GPLv3
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: i386_pentium
+Installed-Size: 73948
+Filename: shadowsocks-libev-server_3.0.6-1_i386_pentium.ipk
+Size: 74832
+SHA256sum: 2e73bb106269254fa83bb9e60706e3217ccda8cb690ee5fbf4ae90bd51eef38e
+Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
+
 Package: snapshot-tool
 Version: 2017-05-09-c43ae11e-2
 Depends: libc, libubox, fstools
@@ -11751,6 +11781,18 @@ Filename: uclient-fetch_2016-12-09-52d955fd-1_i386_pentium.ipk
 Size: 7445
 SHA256sum: 26ab7772cac16426b066c2b266045d8c86106fcfe3b47af84d808bdc41f357e2
 Description:  Tiny wget replacement using libuclient
+
+Package: udns-utils
+Version: 0.4-1
+Depends: libc
+Source: package/openwrt-udns
+Section: net
+Architecture: i386_pentium
+Installed-Size: 47312
+Filename: udns-utils_0.4-1_i386_pentium.ipk
+Size: 47477
+SHA256sum: fe59c44f1079fe29e20e44b0f59ed1a799d2f6fb454c077e0659bceefba30dd3
+Description:  udns utils, stub DNS resolver (all)
 
 Package: ugps
 Version: 2017-02-11-c30055a6-3
