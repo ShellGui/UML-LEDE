@@ -9325,17 +9325,14 @@ Description:  HTTP/1.1 client library
 Package: libudns
 Version: 0.4-1
 Depends: libc
-Source: package/udns
-License: LGPL-2.1
-Section: libs
-Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Source: package/openwrt-udns
+Section: net
 Architecture: x86_64
-Installed-Size: 18653
+Installed-Size: 19627
 Filename: libudns_0.4-1_x86_64.ipk
-Size: 19424
-SHA256sum: 32da504e61ef773f4408ada3c657bdc6a78c3ad3829f562a9ea61d06ae2323fb
-Description:  UDNS is a stub DNS resolver library with ability to perform both syncronous
- and asyncronous DNS queries.
+Size: 20358
+SHA256sum: 3cc28a391d2f28009af33696e0eaa68a9fdf4a6c249581b22fdd3977e1ced345
+Description:  The DNS library, udns, implements thread-safe stub DNS resolver functionality, which may be used both traditional, syncronous way and asyncronously, with application-supplied event loop.
 
 Package: libunwind
 Version: 1.2.1-1
@@ -10711,19 +10708,34 @@ SHA256sum: 2673763b036a451035f7da8ba2fe3212216c5cb287a6d9a9d68c513c157665fd
 Description:  list the size of a partition, list the partitions on a device, check the
  partitions on a device and repartition a device
 
-Package: shadowsocks-libev-server
+Package: shadowsocks-libev
 Version: 3.0.6-1
 Depends: libc, libev, libudns, libpcre, libpthread, libsodium, libmbedtls
-Source: package/shadowsocks-libev
+Source: package/shadowsocks
 License: GPLv3
 LicenseFiles: LICENSE
 Section: net
 Maintainer: Jian Chang <aa65535@live.com>
 Architecture: x86_64
-Installed-Size: 66313
+Installed-Size: 172007
+Filename: shadowsocks-libev_3.0.6-1_x86_64.ipk
+Size: 172820
+SHA256sum: da3999205aa28ee29de3ac23bb48b07cdc318c9c32cc3221b1059a981007d6fb
+Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
+
+Package: shadowsocks-libev-server
+Version: 3.0.6-1
+Depends: libc, libev, libudns, libpcre, libpthread, libsodium, libmbedtls
+Source: package/shadowsocks
+License: GPLv3
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: x86_64
+Installed-Size: 76059
 Filename: shadowsocks-libev-server_3.0.6-1_x86_64.ipk
-Size: 67162
-SHA256sum: 8dcecaeecec5608439c144a907d2e93e186a6f823453a9f67f9b1691ee23425e
+Size: 76852
+SHA256sum: 44b8421216d015e816122a5ca79049a33d7acfeaa713a9c325e0c71c1a01023a
 Description:  Shadowsocks-libev is a lightweight secured socks5 proxy for embedded devices and low end boxes.
 
 Package: snapshot-tool
@@ -11796,6 +11808,18 @@ Filename: uclient-fetch_2016-12-09-52d955fd-1_x86_64.ipk
 Size: 7586
 SHA256sum: c3ae7bdd08a7484c8a0bfbad3408844a3d9fc8dc9b547f844e4de41d896b4bca
 Description:  Tiny wget replacement using libuclient
+
+Package: udns-utils
+Version: 0.4-1
+Depends: libc
+Source: package/openwrt-udns
+Section: net
+Architecture: x86_64
+Installed-Size: 42424
+Filename: udns-utils_0.4-1_x86_64.ipk
+Size: 42975
+SHA256sum: 1bdad2c6d22567cde4f192bb0bf0ff29ffb2142c6759ad6f538448b10fca4e24
+Description:  udns utils, stub DNS resolver (all)
 
 Package: ugps
 Version: 2017-02-11-c30055a6-3
