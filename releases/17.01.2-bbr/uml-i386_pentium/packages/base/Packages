@@ -9322,6 +9322,18 @@ Size: 10658
 SHA256sum: 2594beddbb457e0cdf217597a49c7ec434e6d3c1001608fe8785ce909977ca9c
 Description:  HTTP/1.1 client library
 
+Package: libudns
+Version: 0.4-1
+Depends: libc
+Source: package/openwrt-udns
+Section: net
+Architecture: i386_pentium
+Installed-Size: 21579
+Filename: libudns_0.4-1_i386_pentium.ipk
+Size: 22237
+SHA256sum: b60e3a05040c4e5ddaa12355725ad2567dd81ef5cb8e121b8c746b3cb9af754a
+Description:  The DNS library, udns, implements thread-safe stub DNS resolver functionality, which may be used both traditional, syncronous way and asyncronously, with application-supplied event loop.
+
 Package: libusb-1.0
 Version: 1.0.21-1
 Depends: libc, libpthread, librt
