@@ -9229,51 +9229,6 @@ SHA256sum: 73179d7aea6011dc5b69d2a07e715daf75c11092fca2059f110815757cce04af
 Description:  This package contains a system-independent library for user-level network packet
  capture.
 
-Package: libpcre16
-Version: 8.40-2
-Depends: libc
-Source: package/pcre
-License: BSD-3-Clause
-LicenseFiles: LICENCE
-Section: libs
-Maintainer: Thomas Heil <heil@terminal-consulting.de>
-Architecture: x86_64
-Installed-Size: 73640
-Filename: libpcre16_8.40-2_x86_64.ipk
-Size: 74479
-SHA256sum: 5818b83d978b104c08f30fe2f83bd597a8d3c6503d750960cc84bca3c0a86258
-Description:  A Perl Compatible Regular Expression library (16bit support)
-
-Package: libpcre
-Version: 8.40-2
-Depends: libc
-Source: package/pcre
-License: BSD-3-Clause
-LicenseFiles: LICENCE
-Section: libs
-Maintainer: Thomas Heil <heil@terminal-consulting.de>
-Architecture: x86_64
-Installed-Size: 81345
-Filename: libpcre_8.40-2_x86_64.ipk
-Size: 82173
-SHA256sum: cbaf5e419c88fb847721c02148090da041048cfc0bbcc16c846f5d8ca96453d1
-Description:  A Perl Compatible Regular Expression library
-
-Package: libpcrecpp
-Version: 8.40-2
-Depends: libc, libpcre, libstdcpp
-Source: package/pcre
-License: BSD-3-Clause
-LicenseFiles: LICENCE
-Section: libs
-Maintainer: Thomas Heil <heil@terminal-consulting.de>
-Architecture: x86_64
-Installed-Size: 10995
-Filename: libpcrecpp_8.40-2_x86_64.ipk
-Size: 11790
-SHA256sum: 8f21bef441e21a8b9c47c899ef51afd90872705388b8624b184f7aec7ef62b10
-Description:  C++ wrapper for Perl Compatible Regular Expression library
-
 Package: libpopt
 Version: 1.16-1
 Depends: libc
@@ -9398,23 +9353,6 @@ Description:  Dante is a circuit-level firewall/proxy that can be used to provid
  and large international organizations, either as a standard SOCKS server or as
  a "reverse proxy". 
  This package provides the shared libsocks library.
-
-Package: libsqlite3
-Version: 3190200-1
-Depends: libc, libpthread
-Source: package/sqlite3
-License: PUBLICDOMAIN
-Section: libs
-Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
-Architecture: x86_64
-Installed-Size: 364198
-Filename: libsqlite3_3190200-1_x86_64.ipk
-Size: 364833
-SHA256sum: 230f1cc76296e32787b8729b5686656eb468b8912b7946d39c5b94afb77000df
-Description:  SQLite is a small C library that implements a self-contained, embeddable,
- zero-configuration SQL database engine.
- This package contains the SQLite (v3.x) shared library, used by other
- programs.
 
 Package: libstdcpp
 Version: 5.4.0-1
@@ -9660,21 +9598,6 @@ Description:  The UUID library is used to generate unique identifiers for object
  that may be accessible beyond the local system. This library
  generates UUIDs compatible with those created by the Open Software
  Foundation (OSF) Distributed Computing Environment (DCE) utility.
-
-Package: libxml2
-Version: 2.9.4-1
-Depends: libc, libpthread, zlib
-Source: package/libxml2
-License: MIT
-LicenseFiles: COPYING
-Section: libs
-Maintainer: Michael Heimpold <mhei@heimpold.de>
-Architecture: x86_64
-Installed-Size: 501361
-Filename: libxml2_2.9.4-1_x86_64.ipk
-Size: 500273
-SHA256sum: 863562f3819aca49a2b23d38ced7e8fbc1d1917c807a90c839c25120e45b68af
-Description:  A library for manipulating XML and HTML resources.
 
 Package: libxtables
 Version: 1.6.1-1
@@ -11531,24 +11454,6 @@ Filename: spidev-test_4.9.31-4.9.31_x86_64.ipk
 Size: 3928
 SHA256sum: d30dd83ef279991575b830047c5be66f96d22ab5a181beab94bc3bbf4cc4989e
 Description:  SPI testing utility.
-
-Package: sqlite3-cli
-Version: 3190200-1
-Depends: libc, libsqlite3, libncurses, libreadline
-Source: package/sqlite3
-License: PUBLICDOMAIN
-Section: utils
-Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
-Architecture: x86_64
-Installed-Size: 398366
-Filename: sqlite3-cli_3190200-1_x86_64.ipk
-Size: 399198
-SHA256sum: eddf89b4eb327a76cb02e117d03bcd2e5d2404ea9345161fa02985541aeb4db9
-Description:  SQLite is a small C library that implements a self-contained, embeddable,
- zero-configuration SQL database engine.
- This package contains a terminal-based front-end to the SQLite (v3.x) library
- that can evaluate queries interactively and display the results in multiple
- formats.
 
 Package: srelay
 Version: 0.4.8b3-2
