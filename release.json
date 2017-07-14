@@ -1,46 +1,88 @@
 {
 	"release": {
 		"17.01.2-bbr": {
-			"uml-i386_pentium": [
-				{
-					"file": "lede-pure-uml-vmlinux",
-					"detail": "17.01.2-bbr_uml-i386_pentium - Default Kernel"
+			"arch":	{
+				"uml-i386_pentium": {
+					"Kernel": [
+						"lede-pure-uml-vmlinux"
+					],
+					"template": [
+						{
+							"name": "Pure-bbr-i386_pentium",
+							"kernel": "lede-pure-uml-vmlinux",
+							"detail": "17.01.2-bbr_uml-i386_pentium - Default Pure System"
+						}
+					]
+				},
+				"uml-x86_64": {
+					"Kernel": [
+						"lede-pure-uml-vmlinux"
+					],
+					"template": [
+						{
+							"name": "Pure-bbr-x86_64",
+							"kernel": "lede-pure-uml-vmlinux",
+							"detail": "17.01.2-bbr_uml-x86_64 - Default Pure System"
+						}
+					]
 				}
-			],
-			"uml-x86_64": [
-				{
-					"file": "lede-pure-uml-vmlinux",
-					"detail": "17.01.2-bbr_uml-x86_64 - Default Kernel"
-				}
-			]
+			}
 		},
 		"17.01.2-bbr2x": {
-			"uml-i386_pentium": [
-				{
-					"file": "lede-pure-uml-vmlinux",
-					"detail": "17.01.2-bbr2x_uml-i386_pentium - Default Kernel"
+			"arch":	{
+				"uml-i386_pentium": {
+					"Kernel": [
+						"lede-pure-uml-vmlinux"
+					],
+					"template": [
+						{
+							"name": "Pure-bbr2x-i386_pentium",
+							"kernel": "lede-pure-uml-vmlinux",
+							"detail": "17.01.2-bbr2x_uml-i386_pentium - Default Pure System"
+						}
+					]
+				},
+				"uml-x86_64": {
+					"Kernel": [
+						"lede-pure-uml-vmlinux"
+					],
+					"template": [
+						{
+							"name": "Pure-bbr2x-x86_64",
+							"kernel": "lede-pure-uml-vmlinux",
+							"detail": "17.01.2-bbr2x_uml-x86_64 - Default Pure System"
+						}
+					]
 				}
-			],
-			"uml-x86_64": [
-				{
-					"file": "lede-pure-uml-vmlinux",
-					"detail": "17.01.2-bbr2x_uml-x86_64 - Default Kernel"
-				}
-			]
+			}
 		},
 		"17.01.2-bbr2x-qos": {
-			"uml-i386_pentium": [
-				{
-					"file": "lede-pure-uml-vmlinux",
-					"detail": "17.01.2-bbr2x-qos_uml-i386_pentium - Default Kernel"
+			"arch":	{
+				"uml-i386_pentium": {
+					"Kernel": [
+						"lede-pure-uml-vmlinux"
+					],
+					"template": [
+						{
+							"name": "Pure-bbr2x-qos-i386_pentium",
+							"kernel": "lede-pure-uml-vmlinux",
+							"detail": "17.01.2-bbr2x-qos_uml-i386_pentium - Default Pure System"
+						}
+					]
+				},
+				"uml-x86_64": {
+					"Kernel": [
+						"lede-pure-uml-vmlinux"
+					],
+					"template": [
+						{
+							"name": "Pure-bbr2x-qos-x86_64",
+							"kernel": "lede-pure-uml-vmlinux",
+							"detail": "17.01.2-bbr2x-qos_uml-x86_64 - Default Pure System"
+						}
+					]
 				}
-			],
-			"uml-x86_64": [
-				{
-					"file": "lede-pure-uml-vmlinux",
-					"detail": "17.01.2-bbr2x-qos_uml-x86_64 - Default Kernel"
-				}
-			]
+			}
 		}
 	}
 }
