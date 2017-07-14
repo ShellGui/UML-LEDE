@@ -56,7 +56,7 @@
 				}
 			}
 		},
-		"17.01.2-bbr2x-qos": {
+		"17.01.2-bbr2x_qos": {
 			"arch":	{
 				"uml-i386_pentium": {
 					"Kernel": [
@@ -64,9 +64,9 @@
 					],
 					"template": [
 						{
-							"name": "Pure-bbr2x-qos-i386_pentium",
+							"name": "Pure-bbr2x_qos-i386_pentium",
 							"kernel": "lede-pure-uml-vmlinux",
-							"detail": "17.01.2-bbr2x-qos_uml-i386_pentium - Default Pure System"
+							"detail": "17.01.2-bbr2x_qos_uml-i386_pentium - Default Pure System"
 						}
 					]
 				},
@@ -76,9 +76,9 @@
 					],
 					"template": [
 						{
-							"name": "Pure-bbr2x-qos-x86_64",
+							"name": "Pure-bbr2x_qos-x86_64",
 							"kernel": "lede-pure-uml-vmlinux",
-							"detail": "17.01.2-bbr2x-qos_uml-x86_64 - Default Pure System"
+							"detail": "17.01.2-bbr2x_qos_uml-x86_64 - Default Pure System"
 						}
 					]
 				}
